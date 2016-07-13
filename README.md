@@ -25,7 +25,7 @@ Create a file called `Main.elm` with the content:
 -- declare a module called `Main` exposing everything to the external world
 module Main exposing (..)
 
--- import the `text` function from the `Http` module (present in the elm-lang/html package)
+-- import the `text` function from the `Http` module (present in the `elm-lang/html` package)
 import Html exposing (text)
 
 -- output a text to be rendered in the html body
@@ -33,7 +33,7 @@ main =
     text "Hello, World!"
 ```
 
-Because we are using the elm-lang/html package, we need to install it:
+Because we are using the `elm-lang/html` package, we need to install it:
 
 ```bash
 $ elm-package install elm-lang/html
