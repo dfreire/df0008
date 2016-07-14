@@ -54,4 +54,4 @@ To see the result in a webpage, we need to start elm-reactor:
 $ elm-reactor
 ```
 
-and then open [http://localhost:8000/Main.elm]
+and then open (http://localhost:8000/Main.elm)
