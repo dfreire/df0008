@@ -12,9 +12,16 @@
 ```
 
 ```elm
-{- multiple lines
-{- can be nested -}
+{- a multiline comment
+   {- can be nested -}
 -}
+```
+
+```elm
+-- trick: removing the } in the next line will comment the following code
+{--}
+add x y = x + y
+--}
 ```
 
 ## 2. Hello World
@@ -36,8 +43,10 @@ main =
 Because we are using the `elm-lang/html` package, we need to install it:
 
 ```bash
-$ elm-package install elm-lang/html
+$ elm-package install -y elm-lang/html
 ```
+
+`-y` tells the installer to reply 'yes' to all prompts .
 
 To see the result in a webpage, we need to start elm-reactor:
 
