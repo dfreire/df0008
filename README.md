@@ -18,7 +18,7 @@
 ```
 
 ```elm
--- trick: removing the } in the next line will comment the following code
+-- trick: removing the } in the next line will comment the remaining code
 {--}
 add x y = x + y
 --}
@@ -46,7 +46,7 @@ Because we are using the `elm-lang/html` package, we need to install it:
 $ elm-package install -y elm-lang/html
 ```
 
-`-y` tells the installer to reply 'yes' to all prompts .
+`-y` tells the installer to reply 'yes' to all prompts.
 
 To see the result in a webpage, we need to start elm-reactor:
 
@@ -54,4 +54,4 @@ To see the result in a webpage, we need to start elm-reactor:
 $ elm-reactor
 ```
 
-and then open http://localhost:8000/Main.elm
+and then open [http://localhost:8000/Main.elm]
