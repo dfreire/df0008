@@ -1,3 +1,5 @@
+# Elm Succinctly
+
 ## Table of Contents
 
 * [Comments](#1-comments)
