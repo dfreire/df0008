@@ -1,4 +1,4 @@
-## 4. Numbers
+## Numbers
 
 ```elm
 42

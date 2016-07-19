@@ -11,7 +11,7 @@
 * [Records](#7-records)
 * [Hello World](#99-hello-world)
 
-## 1. Comments
+## Comments
 
 ```elm
 -- single line
@@ -30,7 +30,7 @@ add x y = x + y
 --}
 ```
 
-## 3. Booleans and Boolean Operations
+## Booleans and Boolean Operations
 
 ```elm
 True
@@ -56,7 +56,7 @@ not True
 -- False : Bool
 ```
 
-## 4. Numbers
+## Numbers
 
 ```elm
 42
@@ -97,7 +97,7 @@ Basics.round 3.14
 -- 3 : Int
 ```
 
-## 5. Strings
+## Strings
 
 ```elm
 "Hello"
@@ -126,7 +126,7 @@ String.reverse "stressed"
 -- "desserts" : String
 ```
 
-## 6. Chars
+## Chars
 
 ```elm
 'a'
@@ -143,17 +143,17 @@ Char.toCode '\r'
 -- 13 : Char.KeyCode
 ```
 
-## 7. Lists
+## Lists
 
 ```elm
 ```
 
-## 8. Records
+## Records
 
 ```elm
 ```
 
-## 2. Hello World
+## Hello World
 
 Create a file called `Main.elm` with the content:
 

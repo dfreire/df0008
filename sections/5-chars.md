@@ -1,4 +1,4 @@
-## 6. Chars
+## Chars
 
 ```elm
 'a'

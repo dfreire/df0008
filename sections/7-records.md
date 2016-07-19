@@ -1,4 +1,4 @@
-## 8. Records
+## Records
 
 ```elm
 ```

@@ -1,4 +1,4 @@
-## 7. Lists
+## Lists
 
 ```elm
 ```

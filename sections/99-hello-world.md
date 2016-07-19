@@ -1,4 +1,4 @@
-## 2. Hello World
+## Hello World
 
 Create a file called `Main.elm` with the content:
 

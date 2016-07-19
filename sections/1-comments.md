@@ -1,4 +1,4 @@
-## 1. Comments
+## Comments
 
 ```elm
 -- single line

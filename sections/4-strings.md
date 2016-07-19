@@ -1,4 +1,4 @@
-## 5. Strings
+## Strings
 
 ```elm
 "Hello"

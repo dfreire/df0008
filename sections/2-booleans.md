@@ -1,4 +1,4 @@
-## 3. Booleans and Boolean Operations
+## Booleans and Boolean Operations
 
 ```elm
 True
