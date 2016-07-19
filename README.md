@@ -7,9 +7,9 @@
 * [Booleans](#3-booleans)
 * [Numbers](#4-numbers)
 * [Strings](#5-strings)
-* [Lists](#6-lists)
-* [Records](#7-records)
-* [Records](#7-comparison)
+* [Chars](#6-chars)
+* [Lists](#7-lists)
+* [Records](#8-records)
 
 ## 1. Comments
 
@@ -159,9 +159,17 @@ String.reverse "stressed"
 -- "desserts" : String
 ```
 
-## 6. Lists
+## 6. Chars
 
-## 7. Records
+```elm
+```
+
+## 7. Lists
+
+```elm
+```
+
+## 8. Records
 
 ```elm
 ```
