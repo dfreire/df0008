@@ -65,16 +65,26 @@ and then open <http://localhost:8000/Main.elm>
 
 ```elm
 True
+-- True : Bool
+
 False
+-- False : Bool
 ```
 
 Elm has no concept of truthy and falsy values.
 
 ```elm
-True && True -- True
-True || False -- True
-(True || False) && False -- False
-not True -- False
+True && True
+-- True : Bool
+
+True || False
+-- True : Bool
+
+(True || False) && False
+-- False : Bool
+
+not True
+-- False : Bool
 ```
 
 ## 4. Numbers
