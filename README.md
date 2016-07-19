@@ -9,6 +9,7 @@
 * [Strings](#5-strings)
 * [Lists](#6-lists)
 * [Records](#7-records)
+* [Records](#7-comparison)
 
 ## 1. Comments
 
@@ -123,9 +124,40 @@ In Elm, a `number` is either an `Int` or a `Float`.
 
 4^2
 -- 16 : number
+
+Basics.round 3.14
+-- 3 : Int
 ```
 
 ## 5. Strings
+
+```elm
+"Hello"
+-- "Hello" : String
+
+-- multi-line String
+"""
+A multi-line String
+can contain "quotation marks".
+"""
+```
+
+In Elm, strings are always enclosed in double quotes.
+
+```elm
+"Hello, " ++ "World!"
+-- "Hello, World!" : String
+```
+
+```elm
+import String
+
+String.isEmpty ""
+-- True : Bool
+
+String.reverse "stressed"
+-- "desserts" : String
+```
 
 ## 6. Lists
 

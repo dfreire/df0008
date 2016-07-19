@@ -34,4 +34,7 @@ In Elm, a `number` is either an `Int` or a `Float`.
 
 4^2
 -- 16 : number
+
+Basics.round 3.14
+-- 3 : Int
 ```
