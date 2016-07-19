@@ -4,7 +4,6 @@
 "Hello"
 -- "Hello" : String
 
--- multi-line String
 """
 A multi-line String
 can contain "quotation marks".

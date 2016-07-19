@@ -135,7 +135,6 @@ Basics.round 3.14
 "Hello"
 -- "Hello" : String
 
--- multi-line String
 """
 A multi-line String
 can contain "quotation marks".
@@ -162,6 +161,18 @@ String.reverse "stressed"
 ## 6. Chars
 
 ```elm
+'a'
+-- 'a' : Char
+```
+
+```elm
+import Char
+
+Char.toCode 'a'
+-- 97 : Char.KeyCode
+
+Char.toCode '\r'
+-- 13 : Char.KeyCode
 ```
 
 ## 7. Lists
