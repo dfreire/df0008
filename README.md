@@ -4,6 +4,11 @@
 
 * [Comments](#1-comments)
 * [Hello World](#2-hello-world)
+* [Booleans](#3-booleans)
+* [Numbers](#4-numbers)
+* [Strings](#5-strings)
+* [Lists](#6-lists)
+* [Records](#7-records)
 
 ## 1. Comments
 
@@ -55,4 +60,28 @@ $ elm-reactor
 ```
 
 and then open <http://localhost:8000/Main.elm>
+
+## 3. Booleans and Boolean Operations
+
+```elm
+True  : Bool
+False : Bool
+```
+
+Elm has no concept of truthy and falsy values.
+
+```elm
+True && True -- True
+True || False -- True
+(True || False) && False -- False
+not True -- False
+```
+
+## 4. Numbers
+
+## 5. Strings
+
+## 6. Lists
+
+## 7. Records
 
