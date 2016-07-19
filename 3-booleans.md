@@ -1,8 +1,8 @@
 ## 3. Booleans and Boolean Operations
 
 ```elm
-True  : Bool
-False : Bool
+True
+False
 ```
 
 Elm has no concept of truthy and falsy values.
