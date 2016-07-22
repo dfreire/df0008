@@ -9,4 +9,5 @@
 * [Chars](#chars)
 * [Lists](#lists)
 * [Records](#records)
+* [Maybe](#maybe)
 * [Hello World](#hello-world)
