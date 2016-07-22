@@ -17,3 +17,10 @@ In Elm, all list elements must have the same type.
 [1..4] ++ [5..6]
 -- [1,2,3,4,5,6] : List number
 ```
+
+```elm
+import List
+
+List.member 4 [1,2,3,4]
+-- True : Bool
+```
